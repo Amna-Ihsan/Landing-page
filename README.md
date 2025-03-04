@@ -19,7 +19,7 @@
 <p> Dynamic scrolling and smooth animations using JavaScript.</p>
 <p> Clear separation of sections: About, Services, Projects, and Footer.</p>
 
-<h1>Technologies Used<h/1>
+<h1>Technologies Used</h1>
 <p> HTML5: Markup for page structure and content.</p>
 <p> CSS3: Styling with Flexbox and Grid for responsive layouts.</p>
 <p> JavaScript: Adding interactivity and animations.</p>
