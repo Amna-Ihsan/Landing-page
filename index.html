@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,209 +11,448 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://e7.pngegg.com/pngimages/758/371/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo.png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-
-</head>
-<body>
-   <!-- Header -->
-   <header>
-    <a href="#" id="logo"><img src="https://e7.pngegg.com/pngimages/758/371/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo.png"></a>
-    <div class="nav-div">
-      <nav class="nav">
-        <a href="#">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#services">Services</a>
-        <a href="#About">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <div class="dropdown">
-        <span onclick="myFunction()" class="dropbtn" >
-            <i class="fa-solid fa-bars" style="color: white;"></i>
-        </span>
-        <div id="myDropdown" class="dropdown-content">
+    <link rel="icon" type="image/x-icon" href="images/Hero-image.avif" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#"><img src="images/Hero-image.avif" /></a>
+      <div class="nav-div">
+        <nav class="nav">
           <a href="#">Home</a>
           <a href="#projects">Projects</a>
-          <a href="#projects">Services</a>
           <a href="#About">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="dropdown">
+          <span onclick="myFunction()" class="dropbtn">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- End Header -->
+    </header>
+    <!-- End Header -->
 
-  <!-- Hero Section -->
-<section class="hero" id="hero">
-    <div class="hero-content">
-        <h1><span>Your Vision,</span><br> <span style="color: rgb(15, 122, 141);">Our Development</span></h1>
-        <p>Designing websites that respond to every user’s needs, whether on desktop, tablet, or mobile. With a focus on both performance and aesthetic, your website will look stunning and perform flawlessly. Afterward, Figma designs are expertly turned into clean, responsive code that elevates your website’s user experience.</p>
-        <a href="#" id="heroBtn">Contact us</a>
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <section id="welcome-section">
+        <div id="Hero_Section">
+          <small
+            >Hello<span style="font-size: larger">&#128075; </span>I'm Amna Ihsan</small
+          >
+          <h1><span id="Front-End">Front-End </span>Developer</h1>
+          <span class="hero_span"
+            >Passionate Frontend Developer | Specializing in
+            <span class="about-skills-span"> HTML</span>,
+            <span class="about-skills-span">CSS</span>,
+            <span class="about-skills-span"> JavaScript</span> and
+            <span class="about-skills-span"> React</span></span
+          >
+          <div id="hero_projectTitle_Div">
+            <a href="#projects" id="hero_projectTitle">See Projects</a>
+          </div>
+
+          <div class="hero-contact">
+            <a
+              href="https://github.com/Amna-Ihsan?tab=repositories"
+              title="GitHub"
+              ><i class="fa-brands fa-github" class="icon"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/amna-ihsan-b10316319/"
+              title="Linkedin"
+              ><i class="fa-brands fa-linkedin" class="icon"></i
+            ></a>
+            <a href="mailto:amnaihsan049@gmail.com" title="Email"
+              ><i class="fa-solid fa-at" class="icon"></i
+            ></a>
+            <a href="tel:+447538947275" title="Call me"
+              ><i class="fa-solid fa-mobile" class="icon"></i
+            ></a>
+          </div>
+        </div>
+        <div id="heroImg">
+          <img src="images/Hero-image.avif" />
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- Projects -->
+      <section class="Projects" id="projects">
+        <div class="projectHeading">
+          <h1>Projects</h1>
+          <p>Here's some of my projects that I have worked on.</p>
+        </div>
+        <div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Screenshot_14-4-2025_105414_127.0.0.1.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Beauty Product Review Website</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Product_Review_Website"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Product_Review_Website/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Todo_APP.jpg" />
+            </div>
+            <div class="ProjectText">
+              <h1>ToDo List</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Todo-App"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Todo-App/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/RestaurantMenu.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Restaurant Menu App</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Restaurant-Menu"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Restaurant-Menu/"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Screenshot 2025-02-23 173649.jpg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Figma to HTML CSS</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a
+                  href="https://github.com/Amna-Ihsan/Collers"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://amna-ihsan.github.io/Collers/"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/TextUtils.jpg" />
+            </div>
+            <div class="ProjectText">
+              <h1>TextUtils App</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>React</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/TEXTUTILS"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/TEXTUTILS/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Screenshot 2025-04-14 224517.jpg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Tech Web Agency</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Landing-page"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Landing-page/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Le-pearl.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Le-pearle App</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Le-Pearl"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Le-Pearl/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Calculator.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Calculator</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Calculator"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Calculator/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/survey-form.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Survey form</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Survey-form"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Survey-form/"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/TributePage.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Tribute Page</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="https://github.com/Amna-Ihsan/Tribute-page"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amna-ihsan.github.io/Tribute-page/"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/NewPortfolio.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Portfolio</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>JS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a href="">GitHub <i class="fa-brands fa-github"></i> </a>
+                <a href="">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projectDiv">
+            <div class="ProjectImg">
+              <img src="images/Technical documentation-page.jpeg" />
+            </div>
+            <div class="ProjectText">
+              <h1>Technical documentation</h1>
+              <div class="projectSkills">
+                <small>HTML</small>
+                <small>CSS</small>
+                <small>Responsive Design</small>
+              </div>
+              <div class="projectLink">
+                <a
+                  href="https://github.com/Amna-Ihsan/Technical-documentation-page-"
+                  >GitHub <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://amna-ihsan.github.io/Technical-documentation-page-/"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
         
-      </div>
-</section>
-     <!-- End Hero Section -->
+        </div>
+      </section>
 
-     <!-- About Section -->
-     <section class="AboutSection" id="About">
-      <div class="AboutDiv show-animate">
-        <div class="AboutImgDiv animate-pic" >
-          <img src="images/AboutImg.webp">
-        </div>
-        <div class="ABoutTextDiv animate">
-          <h1 id="aboutHeading">A little about us</h1>
-          <p id="aboutText">At [Your Website Name], websites are more than just code—they’re experiences. Combining the power of front-end development with the precision of Figma design, we turn your concepts into sleek, interactive websites that leave a lasting impression. Whether you need a stunning visual design or a flawless user interface, we ensure your digital presence stands out and engages every visitor. Let’s collaborate and turn your vision into a dynamic online reality that exceeds expectations.</p>
-          <div class="AboutButtonDiv">
-            <span>Want to know more?</span>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-     
-     </section>
-   <!-- End About Section -->
+      <!--End Projects -->
 
-   <!-- Services Section -->
-    <section class="services_Section" id="services">
-      <div class="services-heading show-animate">
-        <h1 class="animate-heading">Our Services</h1>
-      </div>
-      
-     
-      <div class="servicesDiv_row show-animate">
-        <div class="servicesDiv_col  animate" style="--i: 0">
-          <h2>Frontend Development</h2>
-          <p>Build fast, interactive websites with  front-end development. We focus on crafting beautiful interfaces that are both engaging and highly functional, ensuring an excellent user experience across all platforms.</p>
-          <div class="serviceBtnDiv">
-            <a href="#">View more</a>
-            <small>£200</small>
+      <!-- About -->
+      <section class="About" id="About">
+        <div class="about-row">
+          <div class="about-Summary">
+            <h1>About</h1>
+            <p>
+              I am a <span class="about-skills-span"> self-taught</span> web developer skilled in <span class="about-skills-span"> HTML</span>, <span class="about-skills-span"> CSS</span>, <span class="about-skills-span"> JavaScript</span>, and <span class="about-skills-span"> React</span>. Through personal projects, I have honed my ability to create <span class="about-skills-span"> Responsive</span> and <span class="about-skills-span"> Dynamic</span> websites. I am passionate about writing clean, efficient code and ensuring a seamless <span class="about-skills-span"> user experience</span> across devices. I actively use <span class="about-skills-span"> GitHub</span> to manage my projects and track my progress. With every project, I challenge myself to improve and learn new technologies, aiming to create <span class="about-skills-span"> innovative solutions</span>. My goal is to combine my technical skills with creativity to build websites that solve <span class="about-skills-span"> real-world</span> problems. I'm constantly experimenting with new ideas to push the boundaries of web development.
+            </p>
+          </div>
+          <div id="AboutImg">
+            <img src="images/AboutImg.webp" />
           </div>
         </div>
-        <div class="servicesDiv_col animate" style="--i: 1">
-          <h2>Responsive Web Design</h2>
-          <p>Bring your Figma designs to life with our accurate code conversion service. We meticulously transform your design files into responsive, pixel-perfect websites while preserving your original vision.</p>
-          <div class="serviceBtnDiv">
-            <a href="#">View more</a>
-            <small>£100</small>
-          </div>
-        </div>
-        <div class="servicesDiv_col animate" style="--i: 2">
-          <h2>Figma to Code Conversion</h2>
-          <p>Make sure your website looks perfect on any device with responsive design. We create flexible, adaptive layouts that ensure your site delivers a seamless experience, whether on mobile, tablet, or desktop.</p>
-          <div class="serviceBtnDiv">
-            <a href="#">View more</a>
-            <small>£150</small>
-          </div>
-        </div>
-      </div>
-    </section>
-      <!--End Services Section -->
 
-      <!-- Projects section -->
-      <section class="projectSection" id="projects">
-        <div class="projectHeadingDiv">
-          <h1>Our Projects</h1>
-          <a href="#">View more</a>
-        </div>
-        <div class="projectDiv">
-           <!-- Project 1 -->
-          <div class="project-col" id="project1">
-            <div class="project-row show-animate">
-              <div class="projectText ">
-                <div class="projectRow-HeadingDiv animate">
-                  <h2>Protfolio Website</h2>
-                  <a href="https://amna-ihsan.github.io/newPortfolio/">Live Demo</a>
-  
-                </div>
-                <p class="animate">A personal portfolio website designed to showcase skills, projects, and achievements in a sleek, modern layout. This project highlights the ability to create visually stunning, interactive, and user-friendly portfolios that make a lasting impression.</p>
-              </div>
-             
-            </div>
-            <div class="projectImgDiv">
-              <img src="images/NewPortfolio.jpeg">
-            </div>
-          </div>
-            <!-- Project 2 -->
-          <div class="project-col" id="project2">
-            <div class="project-row">
-              <div class="projectText">
-                <div class="projectRow-HeadingDiv">
-                  <h2>Figma to Code:</h2>
-                  <a href="https://amna-ihsan.github.io/Collers/">Live Demo</a>
-  
-                </div>
-                <p>A seamless conversion of Figma designs into fully responsive websites. This project demonstrates the ability to translate complex design files into clean, functional code, preserving the integrity and responsiveness of the original design.</p>
-              </div>
-             
-            </div>
-            <div class="projectImgDiv">
-              <img src="images/Screenshot 2025-02-23 173649.jpg">
-            </div>
+        <div class="Expertise">
+          <h1>Expertise</h1>
+          <div class="Skills_Div">
+          
+            <span class="SkillSpan">
+              <i class="fa-brands fa-html5" style="color: #e34c26;"></i>
+              <small>HTML</small>
+            </span>
+            <span class="SkillSpan">
+              <i class="fa-brands fa-css3-alt"  style="color: #2965f1;"></i>
+              <small>CSS</small>
+            </span>
+            <span class="SkillSpan">
+              <i class="fa-brands fa-square-js" style="color: #f0db4f;"></i>
+              <small>JavaScript</small>
+            </span>
+            <span class="SkillSpan">
+              <i class="fa-brands fa-react" style="color: #88dded;"></i>
+              <small>React</small>
+            </span>
+            <span class="SkillSpan">
+              <i class="fa-brands fa-php" style="color: #8993be;"></i>
+              <small>PHP</small>
+            </span>
+            <span class="SkillSpan">
+              <i class="fa-brands fa-square-github"></i>
+              <small>GitHub</small>
+            </span>
           </div>
         </div>
       </section>
-      <!-- End Projects section -->
+      <!--End  About -->
 
-      <!-- Contact Section -->
-<section class="contact-section" id="contact">
-  <div class="contactDiv show-animate">
-    <h1 class="animate">We can't wait to work with you</h1>
-    <a href="#" class="animate">Let's Connect</a>
-  </div>
-  
-</section>
-      <!-- End Contact Section -->
-        <!-- Footer -->
-    <footer>
-    
-      <div class="footer_rowDiv">
-        <div class="footer_col">
-          <h3>Contact</h3>
-          
-          <a href="tel:07538947275" ><i class="fa-solid fa-phone"></i> 07538947275</a>
-          <a href="mailto:amnaihsan049@gmail.com"><i class="fa-solid fa-envelope"></i> amnaihsan049@gmail.com</a>
-          <a href="#"><i class="fa-solid fa-location-dot"></i> 6 Sephone Drive, Coventry</a>
-          
-        </div>
-        <div class="footer_col">
-          <h3>Services</h3>
-          <a href="#">UX/UI Desgin</a>
-          <a href="#">Figma Dsgin</a>
-          <a href="#">Front end Development</a>
-         
-        </div>
-        <div class="footer_col">
-          <h3>About Us</h3>
-          <a href="#">About</a>
-          
-         
-        </div>
-        <div class="footer_col">
-          <h3>Follow us</h3>
-          
-       
-         
-            <a href="#"></i><i class="fa-brands fa-tiktok" style="color: white;"></i> TikTok</a>
-            <a href="#"><i class="fa-brands fa-facebook"  style="color: rgb(19, 39, 221);background-color: white;border-radius: 50%;"></i> Facebook</a>
-            <a href="#"><i class="fa-brands fa-instagram" style="color: white;" > </i>Instagram</a>
-            <a href="https://www.linkedin.com/in/amna-ihsan-b10316319/"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
-           
+      <!-- Contact -->
+      <footer id="Contact">
+        <div id="footer_1">
+          <h1>Let's work together...</h1>
+
+          <div class="contacts">
+            <a href="https://github.com/Amna-Ihsan"
+              ><i class="fa-brands fa-github"></i> GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/amna-ihsan-b10316319/"
+              ><i class="fa-brands fa-linkedin"></i> Linkedin</a
+            >
+            <a href="mailto:amnaihsan049@gmail.com"
+              ><i class="fa-solid fa-at"></i> Send a mail</a
+            >
+            <a href="tel:+447538947275"
+              ><i class="fa-solid fa-mobile"></i>Call me</a
+            >
           </div>
         </div>
-      </div>
+      </footer>
+      <!--End  Contact -->
+    </main>
+    <!--End  main -->
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        // If the click is outside the dropdown button and the dropdown itself
+        if (
+          !event.target.matches(".dropbtn") &&
+          !event.target.closest(".dropdown")
+        ) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+
+        // If a link inside the dropdown is clicked, close the dropdown
+        if (event.target.matches(".dropdown-content a")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            openDropdown.classList.remove("show");
+          }
+        }
+      };
+  
    
-    </footer>
-</body>
-<script src="script.js">
-   
- 
-</script>
+    </script>
+  </body>
 </html>
